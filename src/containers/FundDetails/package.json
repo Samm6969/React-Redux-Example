@@ -1,0 +1,6 @@
+{
+  "name": "FundDetails",
+  "version": "0.0.1",
+  "main": "./FundDetails",
+  "private": true
+}

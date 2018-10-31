@@ -1,0 +1,15 @@
+.order {
+  display: flex;
+  flex-wrap: wrap;
+  padding: $pad-xs $pad-sm;
+  border-left: 1px solid $color-border;
+  border-right: 1px solid $color-border;
+  border-bottom: 1px solid $color-border;
+  background-color: $menu-hover-color;
+}
+
+.row {
+  flex-grow: 1;
+  flex-basis: percentage(1/2);
+  padding-right: $pad-sm;
+}

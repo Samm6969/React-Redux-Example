@@ -1,0 +1,25 @@
+@import 'GridVariables';
+
+.grid {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+
+  &,
+  * {
+    box-sizing: border-box;
+  }
+}
+
+.body {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+:global {
+  .ReactVirtualized__Grid:first-child {
+    //border-right: $border;
+  }
+}

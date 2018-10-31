@@ -1,0 +1,30 @@
+.filter {
+  cursor: pointer;
+  color: $color-primary-active;
+  padding: $pad-xs 2px;
+  border-bottom: 2px solid transparent;
+  //font-size: $font-size-md + 2;
+  margin-right: $pad-md;
+  font-weight: $font-medium;
+}
+
+.completed {
+  color: $color-success;
+}
+
+.rejected {
+  color: $color-error;
+}
+
+.active {
+  transition: all 200ms;
+  border-bottom: 2px solid $color-primary-active;
+
+  &.completed {
+    border-color: $color-success;
+  }
+
+  &.rejected {
+    border-color: $color-error;
+  }
+}

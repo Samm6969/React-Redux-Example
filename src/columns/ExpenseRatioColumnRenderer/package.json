@@ -1,0 +1,6 @@
+{
+  "name": "ExpenseRatioColumnRenderer",
+  "version": "0.0.1",
+  "main": "./ExpenseRatioColumnRenderer",
+  "private": true
+}

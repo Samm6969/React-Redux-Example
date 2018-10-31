@@ -1,0 +1,27 @@
+.group {
+  //width: 300px;
+}
+
+.table {
+  //border-spacing: 0;
+}
+
+.labelCol {
+  padding-right: $pad-sm;
+}
+
+.buyCol {
+  padding-right: $pad-xs;
+  border-right: 1px solid $color-border;
+  text-align: right;
+}
+
+.sellCol {
+  padding-left: $pad-xs;
+  border-left: 1px solid $color-border;
+}
+
+.settlementPeriodWarning {
+  color: $color-warn;
+  font-weight: $font-medium;
+}

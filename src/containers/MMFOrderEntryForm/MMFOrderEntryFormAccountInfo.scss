@@ -1,0 +1,12 @@
+.account {
+  width: 300px;
+
+  span {
+    @extend %truncate;
+  }
+}
+
+.marketValue,
+.totalShares {
+  width: 250px;
+}

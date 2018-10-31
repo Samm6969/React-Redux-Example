@@ -1,0 +1,6 @@
+{
+  "name": "PercentageOwnedColumnRenderer",
+  "version": "0.0.1",
+  "main": "./PercentageOwnedColumnRenderer",
+  "private": true
+}

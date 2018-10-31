@@ -1,0 +1,51 @@
+import { GraphQLString, GraphQLFloat, GraphQLBoolean } from 'graphql'
+
+import { createType } from '../schemaHelpers'
+
+const StatisticsType = {
+  name: 'Statistics',
+  fields: {
+    aum: { type: GraphQLFloat },
+    dailyFactor: { type: GraphQLFloat },
+    dailyFactorPrevious: { type: GraphQLFloat },
+    dtEffective: { type: GraphQLString },
+    dtUpdFitchRating: { type: GraphQLString },
+    dtUpdMoodyRating: { type: GraphQLString },
+    dtUpdNaicRating: { type: GraphQLString },
+    dtUpdOtherRating: { type: GraphQLString },
+    dtUpdRating: { type: GraphQLString },
+    dtUpdRatingSource: { type: GraphQLString },
+    dtUpdSpRating: { type: GraphQLString },
+    dtUpdated: { type: GraphQLString },
+    fitchRating: { type: GraphQLString },
+    latestExpectedUpdateDate: { type: GraphQLString },
+    latestPrice: { type: GraphQLFloat },
+    latestPriceDtEffective: { type: GraphQLString },
+    liquidity1Day: { type: GraphQLFloat },
+    liquidity7Day: { type: GraphQLFloat },
+    moodyRating: { type: GraphQLString },
+    naicRating: { type: GraphQLString },
+    nav: { type: GraphQLFloat },
+    netFlows: { type: GraphQLFloat },
+    otherRating: { type: GraphQLString },
+    otherRatingSource: { type: GraphQLString },
+    perf1Yr: { type: GraphQLFloat },
+    perf3Yr: { type: GraphQLFloat },
+    perf5Yr: { type: GraphQLFloat },
+    rating: { type: GraphQLString },
+    ratingSource: { type: GraphQLString },
+    shadowNav: { type: GraphQLFloat },
+    spRating: { type: GraphQLString },
+    stale: { type: GraphQLBoolean },
+    updatedBy: { type: GraphQLString },
+    wal: { type: GraphQLFloat },
+    wam: { type: GraphQLFloat },
+    yld1Day: { type: GraphQLFloat },
+    yld30Day: { type: GraphQLFloat },
+    yld7Day: { type: GraphQLFloat },
+    priceStale: { type: GraphQLBoolean },
+    priceDtEffective: { type: GraphQLString },
+  },
+}
+
+export default createType(StatisticsType)

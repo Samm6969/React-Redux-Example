@@ -1,0 +1,33 @@
+.fundGroup {
+  margin-bottom: $pad-md;
+  // box-shadow: $card-shadow;
+  //border: 1px solid $color-border;
+}
+
+.fundInfo {
+  padding: $pad-xs $pad-sm;
+  border-bottom: 1px solid rgba($CAL, 0.9);
+}
+
+.fundDetails {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.fundName {
+  font-weight: $font-medium;
+  font-size: $font-size-lg;
+  color: $CAL;
+}
+
+.error {
+  color: $color-error;
+  margin-right: $pad-md;
+}
+
+.warning {
+  color: $color-warn;
+  margin-right: $pad-md;
+}

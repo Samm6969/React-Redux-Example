@@ -1,0 +1,51 @@
+@import 'GridVariables';
+
+.cell {
+  border-bottom: $border;
+  overflow: hidden;
+  position: relative;
+}
+
+.innerCell {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 6px $pad-sm;
+  max-width: 100%;
+  position: relative;
+  min-height: 100%;
+  display: block;
+}
+
+.isHeader {
+  border-bottom: none;
+  //background-color: #FAFAFA;
+
+  .innerCell {
+    font-weight: $font-medium;
+    //background-color: rgba(0, 0, 0, 0.02);
+    border-right: 1px solid $color-border;
+  }
+}
+
+.isGroup {
+  border-bottom: $border;
+}
+
+.isOddRow {
+  background-color: $color-background;
+}
+
+.isCheckColumn {
+  background-color: darken($color-background, 8);
+  text-align: center;
+
+  .innerCell {
+    border-right: $border;
+    border-left: $border;
+  }
+}
+
+.isHovering {
+  background-color: $color-background-hover;
+}

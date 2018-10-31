@@ -1,0 +1,7 @@
+@import 'GridVariables';
+
+.lockedContainer {
+  > div:last-child {
+    border-right: $border;
+  }
+}

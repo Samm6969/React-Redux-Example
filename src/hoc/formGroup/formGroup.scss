@@ -1,0 +1,81 @@
+.wrapper {
+  // flex: 1;
+  // width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: $pad-md;
+  min-height: $form-field-height;
+  // padding-bottom: $pad-sm;
+  position: relative;
+  margin-right: $pad-md;
+  flex-shrink: 0;
+}
+//
+//.wrapper + .wrapper {
+//  margin-right: $pad-md;
+//}
+
+.field {
+  position: relative;
+  //flex-shrink: 0;
+}
+
+.errorMessages {
+  //position: absolute;
+  //bottom: $pad-xs;
+}
+
+.error {
+  color: $color-error;
+  margin-top: $pad-xs / 2;
+  font-size: $font-size-sm;
+  font-weight: $font-medium;
+}
+
+.warning {
+  color: $color-warn;
+  margin-top: $pad-xs / 2;
+  font-size: $font-size-sm;
+  font-weight: $font-medium;
+}
+
+.label {
+  margin-right: $pad-sm;
+  // font-size: $font-size;
+  // color: $text-color-light;
+  margin-bottom: $pad-xs;
+  font-weight: $font-medium;
+  //flex-shrink: 0;
+}
+
+.inline {
+  flex: none;
+  width: auto;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 0;
+
+  .label {
+    margin-bottom: 0;
+  }
+
+  .field {
+    flex: 1;
+  }
+}
+
+.disabled {
+  color: $disabled-color;
+}
+
+.rightAlign {
+  text-align: right;
+}
+
+.leftAlign {
+  text-align: left;
+}
+
+.centerAlign {
+  text-align: center;
+}

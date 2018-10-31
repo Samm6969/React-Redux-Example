@@ -1,0 +1,16 @@
+//.wrapper {
+//  display: flex;
+//  align-items: center;
+//}
+
+.warning {
+  color: $color-warn;
+}
+
+.error {
+  color: $color-error;
+}
+
+.icon + .icon {
+  margin-left: $pad-xs;
+}

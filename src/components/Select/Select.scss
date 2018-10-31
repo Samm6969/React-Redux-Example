@@ -1,0 +1,34 @@
+.select {
+  color: $text-color;
+
+  :global {
+    .fc__control {
+      height: $form-field-height;
+      min-height: $form-field-height;
+      max-height: $form-field-height;
+      border-radius: $border-radius;
+      border: $default-border;
+      background-color: $color-canvas;
+
+      &:hover {
+        box-shadow: none;
+      }
+    }
+
+    .fc__menu-list {
+      overflow-x: hidden;
+    }
+
+    //.Select-placeholder,
+    //.Select-value,
+    //.Select-input,
+    //input {
+    //  height: $form-field-height - 2 !important;
+    //  line-height: $form-field-height - 2 !important;
+    //}
+    //
+    //.Select-input input {
+    //  padding: 0;
+    //}
+  }
+}

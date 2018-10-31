@@ -1,0 +1,27 @@
+.commentInput {
+  min-width: 400px;
+  min-height: 100px;
+  resize: none;
+}
+
+.icon {
+  margin-right: $pad-xs / 2;
+  font-size: $font-size;
+}
+
+.comment {
+  min-width: 150px;
+  max-width: 200px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.modal {
+  width: 450px;
+}
+
+.modalFooter {
+  display: flex;
+  justify-content: flex-end;
+}

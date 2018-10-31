@@ -1,0 +1,12 @@
+.gridCard {
+  flex: 1;
+}
+
+.selectorCardContent {
+  display: flex;
+  flex: 1 1 auto;
+
+  form + form {
+    margin-left: $pad-md;
+  }
+}

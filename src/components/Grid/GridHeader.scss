@@ -1,0 +1,17 @@
+@import 'GridVariables';
+
+.header {
+  //border-bottom: 1px solid $color-border;
+  overflow: hidden;
+  max-width: 100%;
+  min-width: 100%;
+  width: 100%;
+  box-shadow: $grid-header-shadow;
+  position: relative;
+  z-index: $grid-header-z-index;
+}
+
+.scrollContainer {
+  position: relative;
+  display: flex;
+}

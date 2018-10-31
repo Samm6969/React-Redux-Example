@@ -1,0 +1,6 @@
+{
+  "name": "ElbowRenderer",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./ElbowRenderer.js"
+}

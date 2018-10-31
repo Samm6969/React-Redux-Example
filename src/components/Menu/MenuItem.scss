@@ -1,0 +1,11 @@
+.item {
+  padding: $pad-xs $pad-sm;
+  cursor: pointer;
+  white-space: nowrap;
+
+  //&:hover,
+  &:focus,
+  &.focus {
+    background-color: $GEO30;
+  }
+}

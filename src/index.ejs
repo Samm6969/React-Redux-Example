@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Fund Connect</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!--<link href="/theme-triton-all.css" rel="stylesheet">-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,500,700" rel="stylesheet">
+  <!--<link href="<%- basename %>/extjs/theme-triton/resources/theme-triton-all.css" rel="stylesheet">-->
+  <link rel="shortcut icon" href="/favicon.png">
+</head>
+<body>
+<!-- Display a message if JS has been disabled on the browser. -->
+<noscript>If you're seeing this message, that means <strong>JavaScript has been disabled on your browser</strong>,
+  please <strong>enable JS</strong> to make this app work.
+</noscript>
+
+<!-- Application renders into this div -->
+<div id="react-container"><!--content--></div>
+
+<!--<script type="text/javascript" src="<%- basename %>/extjs/ext-all.js"></script>-->
+<!--<script type="text/javascript" src="/ext-modern-all-debug.js" async=""></script>-->
+<script>
+  // WARNING: See the following for security issues around embedding JSON in HTML:
+  // http://redux.js.org/recipes/ServerRendering.html#security-considerations
+  window.__PRELOADED_STATE__ = <%- preloadedState %>
+</script>
+</body>
+</html>

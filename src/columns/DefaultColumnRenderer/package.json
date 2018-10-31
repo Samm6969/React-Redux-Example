@@ -1,0 +1,6 @@
+{
+  "name": "DefaultColumnRenderer",
+  "version": "0.0.1",
+  "main": "./DefaultColumnRenderer",
+  "private": true
+}

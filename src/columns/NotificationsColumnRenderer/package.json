@@ -1,0 +1,6 @@
+{
+  "name": "NotificationsColumnRenderer",
+  "version": "0.0.1",
+  "main": "./NotificationsColumnRenderer",
+  "private": true
+}

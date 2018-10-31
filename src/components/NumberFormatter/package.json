@@ -1,0 +1,6 @@
+{
+  "name": "NumberFormatter",
+  "version": "0.0.1",
+  "main": "./NumberFormatter",
+  "private": true
+}

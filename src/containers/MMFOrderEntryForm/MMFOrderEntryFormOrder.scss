@@ -1,0 +1,41 @@
+.account {
+  display: flex;
+  flex-wrap: wrap;
+  padding: $pad-xs $pad-sm;
+  background-color: $color-background;
+  border-left: 1px solid $color-border;
+  border-right: 1px solid $color-border;
+  border-bottom: 1px solid $color-border;
+
+  &:hover {
+    background-color: $menu-hover-color;
+  }
+
+  //+ .account {
+  //  border-top: 1px solid $color-border;
+  //}
+
+  &.selected {
+    background-color: $menu-hover-color;
+  }
+}
+
+.accountInfo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.orderEntry {
+  padding-top: $pad-sm;
+}
+
+.orderRow {
+  display: flex;
+  flex-wrap: wrap;
+  // align-items: center;
+}
+
+.selector {
+  margin-right: $pad-sm;
+}

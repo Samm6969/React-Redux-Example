@@ -1,0 +1,62 @@
+//TODO
+
+:global {
+  $check-box-transition: all 300ms;
+  $icons-path: '/node-modules/ag-grid-community/src/styles/icons/';
+
+  @import '~ag-grid-community/src/styles/ag-grid.scss';
+  @import '~ag-grid-community/src/styles/ag-theme-balham.scss';
+
+  .ag-theme-balham {
+    .ag-root {
+      border: none;
+    }
+  }
+
+  .ag-selection-checkbox,
+  .ag-header-select-all {
+    .ag-icon {
+      display: inline-block;
+      border: 2px solid $JON;
+      height: 18px !important;
+      width: 18px !important;
+      position: relative;
+      border-radius: 3px;
+      transition: $check-box-transition;
+      overflow: hidden;
+
+      &::before {
+        content: ' ';
+        position: absolute;
+        top: 50% !important;
+        left: 50%;
+        font-size: 14px;
+        color: white;
+        z-index: 0;
+        margin: 0 !important;
+        padding: 0;
+        transform: translate(-50%, -50%);
+      }
+
+      &.ag-icon-checkbox-checked {
+        background-color: $BEN;
+        border-color: $BEN;
+        transition: $check-box-transition;
+
+        &::before {
+          content: '\F109';
+          font-family: AppIcons, sans-serif !important;
+          font-style: normal;
+          font-weight: normal;
+          vertical-align: top;
+        }
+      }
+
+      //.ag-icon-checkbox-unchecked {
+      //}
+      //
+      //.ag-icon-checkbox-indeterminate {
+      //}
+    }
+  }
+}
